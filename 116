@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class HolaMundo{
+
+    public static void main (String[]args){
+
+        int num;
+        String hola = "Hola mundo.";
+       
+
+        Scanner sc = new Scanner (System.in);
+
+        num = sc.nextInt();
+        
+        if(num>=0 && num <= 5){    
+            for (int i = 0; i<num; i++){
+                System.out.println(hola);
+                
+            }
+        }
+    }
+}
